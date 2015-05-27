@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "../dist",
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true
+  },
+  "exclude": [
+    "lib/__test__"
+  ],
+  "tsd": {
+    "dependencies": {
+      "popsicle": "typings/popsicle.d.ts"
+    }
+  }
+}

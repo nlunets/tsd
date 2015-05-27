@@ -1,0 +1,10 @@
+{
+  "tsd": {
+    "dependencies": {
+      "tsd-dep": "file:typings/tsd-dep.d.ts"
+    },
+    "devDependencies": {
+      "tsd-dev-dep": "bower:dep"
+    }
+  }
+}
